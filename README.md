@@ -1,7 +1,3 @@
-Here’s a comprehensive `README.md` for the entire project, including pre-settings, code modifications, deployment, and usage instructions.
-
----
-
 # Telegram Budget Bot
 
 This repository contains a Telegram bot written in Python for tracking income and expenses in Google Sheets. The bot allows users to record income and expenses with customizable types and categories, which are then stored in a Google Sheets document with monthly summaries.
@@ -168,7 +164,4 @@ After deploying, your bot should now be live.
 - **Bot Not Responding**: Check the Google App Engine logs for errors.
 - **Credentials Issues**: Verify the `GOOGLE_CREDENTIALS` environment variable and ensure the service account has access to the Google Sheet.
 - **Environment Variables**: Double-check that `TELEGRAM_TOKEN` and `GOOGLE_CREDENTIALS` are set correctly in the environment.
-
----
-
-This README should provide a clear setup path and usage instructions for deploying and running your Telegram bot for budget tracking!
+## for more info mail me [kfir_mizrahi](mailto:kfir.linkedin@gmail.com)
