@@ -1,0 +1,15 @@
+runtime: custom
+env: flex
+
+manual_scaling:
+  instances: 1
+
+env_variables:
+  TELEGRAM_TOKEN: "YOUR_TELEGRAM_BOT_TOKEN"
+  GOOGLE_CREDENTIALS: "YOUR_GOOGLE_CREDENTIALS_JSON"
+
+handlers:
+  - url: /.*
+    script: auto
+
+
